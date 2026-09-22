@@ -1,9 +1,11 @@
+import { BrowserRouter } from 'react-router-dom'
+import AppRoutes from './routes/AppRoutes'
+
 function App() {
   return (
-    <div>
-      <h1>OficiosYa</h1>
-      <p>Proyecto base funcionando correctamente.</p>
-    </div>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   )
 }
 
