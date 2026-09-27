@@ -1,8 +1,19 @@
+import Hero from '../components/Hero/Hero'
+import SearchBar from '../components/SearchBar/SearchBar'
+import CategoryList from '../components/CategoryList/CategoryList'
+import {FeaturedWorkers} from '../components/FeaturedWorkers/FeaturedWorkers'
+import HowItWorks from'../components/HowItWorks/HowItWorks'
+import WorkerCallToAction from '../components/WorkerCallToAction/WorkerCallToAction'
+
 function Home() {
   return (
-    <div style={{ padding: '2rem' }}>
-      <h1>Bienvenido a OficiosYa</h1>
-      <p>Encontrá el profesional que necesitás.</p>
+    <div>
+      <Hero />
+      <SearchBar />
+      <CategoryList />
+      <FeaturedWorkers />
+      <HowItWorks />
+      <WorkerCallToAction />
     </div>
   )
 }
